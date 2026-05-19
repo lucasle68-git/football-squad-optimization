@@ -165,8 +165,8 @@ For anyone reading this as a hiring signal, the project demonstrates:
 
 Open to **data analyst, business analyst, sports analytics, and management consulting** roles in the UK.
 
-- **LinkedIn:** [your-linkedin-url]
-- **Email:** [your-email]
+- [LinkedIn](https://www.linkedin.com/in/lucasle68/)
+- [GitHub](https://github.com/lucasle68-git)
 
 If you're working on data-driven decision-making problems, especially in sport, transport, or consulting, I'd love to talk.
 
