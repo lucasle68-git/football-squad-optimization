@@ -3,7 +3,6 @@
 > **Applying Multiple Linear Regression + Linear Programming to solve a €100M football recruitment problem, built for Wasserman, the global sports agency.**
 
 [![Status](https://img.shields.io/badge/status-completed-success)]()
-[![Grade](https://img.shields.io/badge/grade-A%20(Excellent)-brightgreen)]()
 [![Methods](https://img.shields.io/badge/methods-Regression%20%7C%20LP%20%7C%20Sensitivity%20Analysis-blue)]()
 [![Tools](https://img.shields.io/badge/tools-Excel%20Solver%20%7C%20Python-orange)]()
 [![Domain](https://img.shields.io/badge/domain-Sports%20Analytics-red)]()
