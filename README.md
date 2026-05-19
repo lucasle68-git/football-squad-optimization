@@ -13,7 +13,7 @@
 
 > *"Which 23 players should Chelsea sign for €100M to maximise long-term squad potential?"*
 
-A real-world resource-allocation problem at the intersection of **sports analytics, financial optimisation, and player valuation** — the kind of decision Premier League clubs make every transfer window, where a single recruitment mistake now costs an average of **€10M** (up from €3.2M a decade ago).
+A real-world resource-allocation problem at the intersection of **sports analytics, financial optimisation, and player valuation**, the kind of decision Premier League clubs make every transfer window, where a single recruitment mistake now costs an average of **€10M** (up from €3.2M a decade ago).
 
 ---
 
@@ -97,8 +97,8 @@ Re-running the LP on age band 25–27 drops squad potential from 1,981 → 1,752
 
 ```
 football-squad-optimization/
-├── README.md                       ← You are here
-├── LICENSE                         ← MIT
+├── README.md                      
+├── LICENSE                         
 ├── docs/
 │   ├── 01-problem-and-context.md   ← Business problem, why Wasserman, why now
 │   ├── 02-methodology.md           ← Full technical write-up (regression + LP)
