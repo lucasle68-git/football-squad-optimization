@@ -1,6 +1,6 @@
-# ⚽ Moneyball for the Premier League: A Data-Driven Squad Optimisation Engine
+# Moneyball for the Premier League: A Data-Driven Squad Optimisation Engine
 
-> **Applying Multiple Linear Regression + Linear Programming to solve a €100M football recruitment problem — built for Wasserman, the global sports agency.**
+> **Applying Multiple Linear Regression + Linear Programming to solve a €100M football recruitment problem, built for Wasserman, the global sports agency.**
 
 [![Status](https://img.shields.io/badge/status-completed-success)]()
 [![Grade](https://img.shields.io/badge/grade-A%20(Excellent)-brightgreen)]()
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 The Problem in One Line
+## The Problem in One Line
 
 > *"Which 23 players should Chelsea sign for €100M to maximise long-term squad potential?"*
 
@@ -18,33 +18,33 @@ A real-world resource-allocation problem at the intersection of **sports analyti
 
 ---
 
-## 📊 Results at a Glance
+## Results at a Glance
 
 | Metric | Value |
 |---|---|
-| 🎯 **Optimal Squad Potential Score** | **1,981** |
-| 💷 **Total Spend** | **€99.745M** (of €100M budget) |
-| 📈 **Statistical Value Upside** | **+€23.5M** (predicted vs. actual) |
-| 👥 **Squad Composition** | 3 GK · 6 DF · 8 MF · 6 FW |
-| 📉 **Regression Model Accuracy** | **R² > 98%** across all four position-specific models |
-| 🛡️ **Robustness** | Solution stable across €70M–€120M budget range (–0.4% sensitivity) |
+| **Optimal Squad Potential Score** | **1,981** |
+| **Total Spend** | **€99.745M** (of €100M budget) |
+| **Statistical Value Upside** | **+€23.5M** (predicted vs. actual) |
+| **Squad Composition** | 3 GK · 6 DF · 8 MF · 6 FW |
+| **Regression Model Accuracy** | **R² > 98%** across all four position-specific models |
+| **Robustness** | Solution stable across €70M–€120M budget range (–0.4% sensitivity) |
 
 **Headline insight:** The model identified that the market systematically *underprices high-potential young players* — including names like Vinícius Jr. (+€8.35M value gap), Rodrygo (+€4.91M), and Hudson-Odoi (+€3.12M) — letting clubs *"buy future superstars at today's current-skill prices."*
 
 ---
 
-## 🧠 Why This Project Matters
+## Why This Project Matters
 
 Most management science coursework optimises factory schedules or warehouse routing. We chose a harder, more interesting problem:
 
-✅ **Niche domain** — Football industry data is messy, multi-dimensional, and emotionally loaded with intuition bias.
-✅ **Real organisation** — Wasserman is an actual global player agency operating at the data + deal-execution intersection.
-✅ **End-to-end pipeline** — From 18,278 raw player records → cleaned position-specific datasets → predictive regression → optimisation under constraints → robustness testing → strategic recommendations.
-✅ **Commercial framing** — Every output is tied back to a business decision a recruitment director would actually make.
+**Niche domain**: Football industry data is messy, multi-dimensional, and emotionally loaded with intuition bias.
+**Real organisation**: Wasserman is an actual global player agency operating at the data + deal-execution intersection.
+**End-to-end pipeline**: From 18,278 raw player records → cleaned position-specific datasets → predictive regression → optimisation under constraints → robustness testing → strategic recommendations.
+**Commercial framing**: Every output is tied back to a business decision a recruitment director would actually make.
 
 ---
 
-## 🛠️ Methodology (Three Linked Models)
+## Methodology (Three Linked Models)
 
 ```
    ┌─────────────────────────┐     ┌─────────────────────────┐     ┌─────────────────────────┐
@@ -81,7 +81,7 @@ Most management science coursework optimises factory schedules or warehouse rout
 
 ---
 
-## 💡 The Three Most Interesting Findings
+## The Three Most Interesting Findings
 
 ### 1. Reputation costs 14× more than actual skill
 Every 1-point increase in `international_reputation` adds **€614,000** to market value. Every 1-point increase in `overall rating` adds only **€43,000**. The market overpays massively for fame. The model exploits this by filtering reputation-heavy stars and targeting high-overall, low-rep young players.
@@ -94,7 +94,7 @@ Re-running the LP on age band 25–27 drops squad potential from 1,981 → 1,752
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 football-squad-optimization/
@@ -118,7 +118,7 @@ football-squad-optimization/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -132,7 +132,7 @@ I deliberately chose **Excel + Solver over Python/PuLP** because the deliverable
 
 ---
 
-## 👤 My Role — Team Lead
+## My Role — Team Lead
 
 I led a team of four on this project. My responsibilities and contributions:
 
@@ -140,13 +140,13 @@ I led a team of four on this project. My responsibilities and contributions:
 - **Methodology design.** Owned the decision to use **position-specific regressions** rather than one pooled model — a single model would have masked the very effects (reputation premium varies 2× across positions) that drive the strategic recommendations.
 - **Workstream coordination.** Split the team across four workstreams (data prep, regression, LP, sensitivity & strategy) with clear interfaces, weekly checkpoints, and integration milestones.
 - **Quality control.** Personally validated the regression diagnostics (multicollinearity, residuals, position-level RMSE) and the LP constraint formulation before integration.
-- **Narrative integration.** Wrote and structured the final report and presentation flow — the Andy Carroll vs. Mo Salah opening framing was my contribution, designed to ground a technical argument in a story any UK football audience already knows.
+- **Narrative integration.** Wrote and structured the final report and presentation flow.
 
 **Outcome:** Awarded an **Excellent grade (A)** by the University of Glasgow.
 
 ---
 
-## 🔭 Honest Limitations (What I'd Do Differently)
+## Honest Limitations (What I'd Do Differently)
 
 A strong analyst should be the first critic of their own work:
 
@@ -157,7 +157,7 @@ A strong analyst should be the first critic of their own work:
 
 ---
 
-## 🚀 What This Project Demonstrates
+## What This Project Demonstrates
 
 For anyone reading this as a hiring signal, the project demonstrates:
 
@@ -170,24 +170,23 @@ For anyone reading this as a hiring signal, the project demonstrates:
 
 ---
 
-## 📬 Get in Touch
+## Get in Touch
 
 Open to **data analyst, business analyst, sports analytics, and management consulting** roles in the UK.
 
-- 💼 **LinkedIn:** [your-linkedin-url]
-- 📧 **Email:** [your-email]
-- 📍 **Based in:** Greater Manchester, UK
+- **LinkedIn:** [your-linkedin-url]
+- **Email:** [your-email]
 
-If you're working on data-driven decision-making problems — especially in sport, transport, or consulting — I'd love to talk.
+If you're working on data-driven decision-making problems, especially in sport, transport, or consulting, I'd love to talk.
 
 ---
 
-## 📚 Course & Acknowledgements
+## Course & Acknowledgements
 
 - **Course:** MGT5426 — Introduction to Management Science
 - **Institution:** Adam Smith Business School, University of Glasgow
 - **Year:** 2025/26
-- **Team:** Group 1 — names available on request
+- **Team:** Group 1, names available on request
 
 Dataset: [FIFA 20 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/fifa-20-complete-player-dataset) (Kaggle, public).
 
