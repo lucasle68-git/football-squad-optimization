@@ -97,22 +97,14 @@ Re-running the LP on age band 25–27 drops squad potential from 1,981 → 1,752
 
 ```
 football-squad-optimization/
-├── README.md                      
-├── LICENSE                         
-├── docs/
-│   ├── 01-problem-and-context.md   ← Business problem, why Wasserman, why now
-│   ├── 02-methodology.md           ← Full technical write-up (regression + LP)
-│   ├── 03-results-and-insights.md  ← Detailed results, shadow prices, recommendations
-│   └── 04-limitations.md           ← Honest limitations + extensions roadmap
+├── README.md
 ├── data/
-│   └── README.md                   ← Data source & preparation notes
+│   └── finaldataset.xlsx
 ├── analysis/
-│   ├── LP_Sensitivity_Report.xlsx  ← Excel Solver sensitivity output
-│   ├── LP_Sensitivity_WhatIf.xlsx  ← What-if scenario testing
-│   └── README.md                   ← How to read the sensitivity output
-├── presentation/
-│   └── Final_Slide_Deck.pdf        ← The full assessed presentation
-└── assets/                         ← Charts and visualisations
+│   ├── LP_Sensitivity_Report.xlsx
+│   └── LP_Sensitivity_WhatIf.xlsx
+└── presentation/
+    └── Management_Science_Project.pdf
 ```
 
 ---
